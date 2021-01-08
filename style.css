@@ -1,0 +1,121 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url(https://image.freepik.com/free-photo/hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+}
+
+.header {
+    min-height: 50px;
+    text-align: center;
+    background-color: #ddd; 
+}
+
+.header h1 {
+    margin-top: 0px;
+}
+
+.logo img {
+    width: 125px;
+    border-radius: 50%;
+}
+
+.menu ul {
+    padding: 0;
+    margin-bottom: 0px;
+}
+
+.menu ul li {
+    display: inline-block;
+    position: relative;
+    background-color: #aaa;
+}
+
+.menu ul li a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+.content {
+    background-color: #ddd;
+    min-height: 500px;
+    overflow: auto;
+    text-align: center;
+}
+
+.footer {
+    background-color: #ccc;
+    min-height: 50px;
+    padding: 20px;
+    text-align: center;
+}
+
+.thumbnail {
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    width: 225px;
+    margin: 10px;
+    float: left;
+}
+
+.thumbnail img {
+    width: 100%; 
+}
+
+ul.submenu {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    text-align: left;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    display: none;
+}
+
+.menu ul li:hover ul.submenu {
+    display: block;
+}
+
+ul.submenu li {
+    display: block;
+}
+
+ul.submenu li a {
+    display: block;
+    padding: 5px 10px;
+}
+
+.jumbotron {
+    font-family: 'Ubuntu', sans-serif;
+    width: 100%;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    background-color: #aaa;
+    background-image: url(https://images.unsplash.com/photo-1521127427017-818a7a7831bc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80);
+    background-size: cover;
+    position: relative;
+}
+
+.jumbotron h2,
+.jumbotron p {
+    position: relative; 
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.4;
+}
